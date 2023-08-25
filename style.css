@@ -1,0 +1,514 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/* Reset and base styles  */
+
+body {
+  max-width: 100%;
+  background-color: #e6e7eb;
+}
+
+.header {
+  background-color: #e6e7eb;
+  min-width: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 1520px;
+  background-color: #e6e7eb;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+.container a {
+  color: #2c2d2e;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.download_btn {
+  margin-right: 77px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+  background-color: #d4d6db;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 28px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  font-size: 14px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 600;
+}
+
+.contacts {
+  display: flex;
+  margin-left: 208px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "SF Pro Display", sans-serif;
+  position: absolute;
+  right: 0;
+}
+
+.contacts_2,
+.contacts_3 {
+  margin-left: 49px;
+}
+
+.info_1,
+.info_2,
+.info_3,
+.info_4 {
+  margin-right: 24px;
+}
+
+.header_search {
+  background-color: #ffffff;
+  margin: auto;
+}
+.header_search_container {
+  padding-top: 25px;
+  padding-bottom: 29px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_input,
+textarea {
+  display: block;
+  width: 757px;
+  height: 48px;
+  color: #ecedf0;
+  padding: 12px, 24px, 12px, 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid;
+  margin-right: 135px;
+  border-radius: 12px;
+}
+
+.icon_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.icon_container p {
+  display: block;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.icon_container_middle {
+  display: block;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.icon_container_middle p {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.catalog_btn {
+  width: 143px;
+  height: 48px;
+  padding: 18px 40px 18px 40px;
+  border-radius: 12px;
+  gap: 10px;
+  background-color: #4865d9;
+
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 51px;
+  margin-right: 16px;
+}
+
+.contacts_container {
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+  width: 1520px;
+}
+
+.contacts_title {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.contacts_section {
+  display: flex;
+}
+
+.item1,
+.item2 {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.item1 {
+  margin-right: 12px;
+}
+
+.item1_text,
+.item2_text {
+  padding-left: 24px;
+  padding-top: 16px;
+  width: 469px;
+  height: 188px;
+}
+
+.item1_text h5,
+.item2_text h5 {
+  margin-bottom: 16px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.item1_text p,
+.item2_text p {
+  font-family: "SF Pro Display", sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.phones {
+  display: flex;
+}
+
+.phone {
+  margin-right: 32px;
+}
+
+.phone li {
+  margin-bottom: 12px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.email p {
+  margin-bottom: 12px;
+}
+
+.bills {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4865d9;
+  margin-top: 38px;
+  margin-bottom: 62px;
+}
+
+.map_section {
+  width: 1520px;
+}
+
+.people {
+  margin: auto;
+  width: 1520px;
+  margin-bottom: 127px;
+}
+
+.people h3 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 48px;
+  margin-top: 80px;
+}
+
+.people_cards {
+  display: grid;
+  grid-template-columns: 356px 356px 356px 356px;
+  grid-template-rows: auto;
+  justify-content: space-between;
+}
+
+.people_card h5 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.people_card ul li {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.people_card ul li img {
+  margin-right: 8px;
+}
+
+.people_btn {
+  display: flex;
+  align-items: center;
+
+  width: 227px;
+  height: 48px;
+  padding: 18px 40px 18px 40px;
+  border-radius: 12px;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+  display: block;
+  background-color: #aeaeae;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  /* padding-top: 70px;
+  padding-left: 200px; */
+  background-color: rgba(232, 234, 244, 1);
+}
+
+.section {
+  margin-right: 40px;
+}
+.section_last {
+  margin-right: 25px;
+}
+.section_last ul li {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.section_last ul {
+  width: fit-content;
+}
+
+.section ul li {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.section_social {
+  margin-right: 40px;
+}
+
+.section_social ul li {
+  margin-bottom: 16px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer_contacts {
+  display: flex;
+}
+
+.footer_phone,
+.footer_email {
+  margin-right: 48px;
+}
+
+.footer_phone ul li,
+.footer_email ul li {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer_phone h5,
+.footer_email h5,
+.footer_pay h5 {
+  margin-bottom: 6px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer_wrapper {
+  width: 1520px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer_pay ul {
+  display: flex;
+}
+.footer_pay ul li {
+  margin-right: 20px;
+}
