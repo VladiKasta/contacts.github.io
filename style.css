@@ -555,6 +555,41 @@ body {
 }
 
 @media screen and (max-width: 1210px) {
+  .footer_contacts {
+    flex-direction: column;
+  }
+  .footer_contacts ul li {
+    text-align: center;
+  }
+  .footer_phone,
+  .footer_email {
+    margin-right: 0;
+  }
+
+  .footer_phone h5 {
+    text-align: center;
+  }
+
+  .footer_email h5 {
+    text-align: center;
+  }
+
+  .footer_pay {
+    width: 100%;
+  }
+
+  .footer_pay ul {
+    justify-content: space-around;
+  }
+
+  .footer_pay ul li {
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .footer_pay h5 {
+    text-align: center;
+  }
   .bills {
     margin-left: 15px;
   }
@@ -650,8 +685,8 @@ body {
 }
 
 @media screen and (max-width: 1490px) {
-  .header_search_container {
-    justify-content: space-around;
+  .header_search_container img {
+    display: none;
   }
   .search_input {
     width: 400px;
@@ -701,6 +736,10 @@ body {
   .section ul li {
     text-align: center;
     display: block;
+  }
+
+  .section_social {
+    margin-right: 0;
   }
 
   .section_social ul li {
